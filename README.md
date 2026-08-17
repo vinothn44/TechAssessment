@@ -109,6 +109,11 @@ sbns - service bus namespace
   <img width="1549" height="536" alt="image" src="https://github.com/user-attachments/assets/d29ee584-6c4a-40ea-a3b6-ff731153aa96" />
 
 
+  For Testing purpose, I have tried to sent the exception records to my mail 
+
+  <p>&nbsp;</p>
+  
+  <img width="1411" height="313" alt="image" src="https://github.com/user-attachments/assets/b62eb734-4866-4abd-a167-cecac31dc89e" />
 
 
 
