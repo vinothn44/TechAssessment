@@ -15,7 +15,7 @@ lap - logicapp
 
 uop - University of portsmouth
 
-eas - <sourcesystem> - External Admission system
+eas - [sourcesystem] - External Admission system
 
 sis - <destinationsystem> - Student Information system
 
