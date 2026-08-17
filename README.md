@@ -26,9 +26,11 @@ sbns - service bus namespace
 
 **Receive requests in Logic App using an HTTP trigger**
 
+
   <img width="1003" height="429" alt="image" src="https://github.com/user-attachments/assets/121c4862-ad8b-49ae-9181-9ecbbffbecba" />
 
   
+
 **Initialize Translation Table for CourseMapping**
 
   <img width="584" height="294" alt="image" src="https://github.com/user-attachments/assets/989a5b3b-9ae4-4a5a-b76d-e573e95d83d4" />
