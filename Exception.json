@@ -1,0 +1,18 @@
+[
+  {
+    "student_id": "10011",
+    "reason": "Unknown course mapping: BSc Comp Sci"
+  },
+  {
+    "student_id": "10012",
+    "reason": "Missing mandatory field: email_address"
+  },
+  {
+    "student_id": "10013",
+    "reason": "Missing mandatory field: forename"
+  },
+  {
+    "student_id": "10004",
+    "reason": "Duplicate student_id: 10004"
+  }
+]

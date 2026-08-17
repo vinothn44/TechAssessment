@@ -1,0 +1,72 @@
+[
+    {
+        "studentNumber": "10001",
+        "fullName": "Jane Smith",
+        "courseCode": "BCS",
+        "email": "j.smith@uni.ac.uk",
+        "status": "Active"
+    },
+    {
+        "studentNumber": "10002",
+        "fullName": "Michael Jones",
+        "courseCode": "BBS",
+        "email": "m.jones@uni.ac.uk",
+        "status": "Active"
+    },
+    {
+        "studentNumber": "10003",
+        "fullName": "Emily Brown",
+        "courseCode": "BPS",
+        "email": "e.brown@uni.ac.uk",
+        "status": "Active"
+    },
+    {
+        "studentNumber": "10004",
+        "fullName": "Daniel Taylor",
+        "courseCode": "BCS",
+        "email": "d.taylor@uni.ac.uk",
+        "status": "Active"
+    },
+    {
+        "studentNumber": "10005",
+        "fullName": "Olivia Wilson",
+        "courseCode": "BBS",
+        "email": "o.wilson@uni.ac.uk",
+        "status": "Active"
+    },
+    {
+        "studentNumber": "10006",
+        "fullName": "Thomas Evans",
+        "courseCode": "BPS",
+        "email": "t.evans@uni.ac.uk",
+        "status": "Active"
+    },
+    {
+        "studentNumber": "10007",
+        "fullName": "Charlotte Harris",
+        "courseCode": "BCS",
+        "email": "c.harris@uni.ac.uk",
+        "status": "Active"
+    },
+    {
+        "studentNumber": "10008",
+        "fullName": "James White",
+        "courseCode": "BBS",
+        "email": "j.white@uni.ac.uk",
+        "status": "Active"
+    },
+    {
+        "studentNumber": "10009",
+        "fullName": "Sophie Clark",
+        "courseCode": "BPS",
+        "email": "s.clark@uni.ac.uk",
+        "status": "Active"
+    },
+    {
+        "studentNumber": "10010",
+        "fullName": "Ryan Baker",
+        "courseCode": "BCS",
+        "email": "r.baker@uni.ac.uk",
+        "status": "Active"
+    }
+]
