@@ -11,7 +11,7 @@ Azure Integration Devloper Tech Assessment
 
 **Abbreviation:**
 
-lap - logicapp
+lap - logicapp /n
 uop - University of portsmouth
 eas - <sourcesystem> - External Admission system
 sis - <destinationsystem> - Student Information system
