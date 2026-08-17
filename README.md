@@ -14,8 +14,11 @@ Azure Integration Devloper Tech Assessment
 lap - logicapp 
 
 uop - University of portsmouth
+
 eas - <sourcesystem> - External Admission system
+
 sis - <destinationsystem> - Student Information system
+
 sbns - service bus namespace
   
 
