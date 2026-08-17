@@ -1,0 +1,100 @@
+[
+    {
+        "student_id": "10001",
+        "forename": "Jane",
+        "surname": "Smith",
+        "course": "BSc Computer Science",
+        "email_address": "j.smith@uni.ac.uk"
+    },
+    {
+        "student_id": "10002",
+        "forename": "Michael",
+        "surname": "Jones",
+        "course": "BSc Business Studies",
+        "email_address": "m.jones@uni.ac.uk"
+    },
+    {
+        "student_id": "10003",
+        "forename": "Emily",
+        "surname": "Brown",
+        "course": "BSc Psychology",
+        "email_address": "e.brown@uni.ac.uk"
+    },
+    {
+        "student_id": "10004",
+        "forename": "Daniel",
+        "surname": "Taylor",
+        "course": "BSc Computer Science",
+        "email_address": "d.taylor@uni.ac.uk"
+    },
+    {
+        "student_id": "10005",
+        "forename": "Olivia",
+        "surname": "Wilson",
+        "course": "BSc Business Studies",
+        "email_address": "o.wilson@uni.ac.uk"
+    },
+    {
+        "student_id": "10006",
+        "forename": "Thomas",
+        "surname": "Evans",
+        "course": "BSc Psychology",
+        "email_address": "t.evans@uni.ac.uk"
+    },
+    {
+        "student_id": "10007",
+        "forename": "Charlotte",
+        "surname": "Harris",
+        "course": "BSc Computer Science",
+        "email_address": "c.harris@uni.ac.uk"
+    },
+    {
+        "student_id": "10008",
+        "forename": "James",
+        "surname": "White",
+        "course": "BSc Business Studies",
+        "email_address": "j.white@uni.ac.uk"
+    },
+    {
+        "student_id": "10009",
+        "forename": "Sophie",
+        "surname": "Clark",
+        "course": "BSc Psychology",
+        "email_address": "s.clark@uni.ac.uk"
+    },
+    {
+        "student_id": "10010",
+        "forename": "Ryan",
+        "surname": "Baker",
+        "course": "BSc Computer Science",
+        "email_address": "r.baker@uni.ac.uk"
+    },
+    {
+        "student_id": "10011",
+        "forename": "Sarah",
+        "surname": "Green",
+        "course": "BSc Comp Sci",
+        "email_address": "s.green@uni.ac.uk"
+    },
+    {
+        "student_id": "10012",
+        "forename": "Ava",
+        "surname": "Walker",
+        "course": "BSc Business Studies",
+        "email_address": ""
+    },
+    {
+        "student_id": "10013",
+        "forename": "",
+        "surname": "Mitchell",
+        "course": "BSc Psychology",
+        "email_address": "m.mitchell@uni.ac.uk"
+    },
+    {
+        "student_id": "10004",
+        "forename": "David",
+        "surname": "Turner",
+        "course": "BSc Computer Science",
+        "email_address": "d.turner@uni.ac.uk"
+    }
+]
