@@ -1,1 +1,80 @@
+param namespaces_sbns_uop_admissionsystem_name string = 'sbns-uop-admissionsystem'
+
+resource namespaces_sbns_uop_admissionsystem_name_resource 'Microsoft.ServiceBus/namespaces@2026-01-01' = {
+  name: namespaces_sbns_uop_admissionsystem_name
+  location: 'indiasouthcentral'
+  sku: {
+    name: 'Basic'
+    tier: 'Basic'
+  }
+  properties: {
+    platformCapabilities: {
+      confidentialCompute: {
+        mode: 'Disabled'
+      }
+    }
+    geoDataReplication: {
+      maxReplicationLagDurationInSeconds: 0
+      locations: [
+        {
+          locationName: 'indiasouthcentral'
+          roleType: 'Primary'
+        }
+      ]
+    }
+    premiumMessagingPartitions: 0
+    minimumTlsVersion: '1.2'
+    publicNetworkAccess: 'Enabled'
+    disableLocalAuth: false
+    zoneRedundant: true
+  }
+}
+
+resource namespaces_sbns_uop_admissionsystem_name_RootManageSharedAccessKey 'Microsoft.ServiceBus/namespaces/authorizationrules@2026-01-01' = {
+  parent: namespaces_sbns_uop_admissionsystem_name_resource
+  name: 'RootManageSharedAccessKey'
+  location: 'indiasouthcentral'
+  properties: {
+    rights: [
+      'Listen'
+      'Manage'
+      'Send'
+    ]
+  }
+}
+
+resource namespaces_sbns_uop_admissionsystem_name_default 'Microsoft.ServiceBus/namespaces/networkrulesets@2026-01-01' = {
+  parent: namespaces_sbns_uop_admissionsystem_name_resource
+  name: 'default'
+  location: 'indiasouthcentral'
+  properties: {
+    publicNetworkAccess: 'Enabled'
+    defaultAction: 'Allow'
+    virtualNetworkRules: []
+    ipRules: []
+    trustedServiceAccessEnabled: false
+  }
+}
+
+resource namespaces_sbns_uop_admissionsystem_name_enrolment_processed 'Microsoft.ServiceBus/namespaces/queues@2026-01-01' = {
+  parent: namespaces_sbns_uop_admissionsystem_name_resource
+  name: 'enrolment-processed'
+  location: 'indiasouthcentral'
+  properties: {
+    maxMessageSizeInKilobytes: 256
+    lockDuration: 'PT5M'
+    maxSizeInMegabytes: 1024
+    requiresDuplicateDetection: false
+    requiresSession: false
+    defaultMessageTimeToLive: 'P14D'
+    deadLetteringOnMessageExpiration: true
+    enableBatchedOperations: true
+    duplicateDetectionHistoryTimeWindow: 'PT10M'
+    maxDeliveryCount: 10
+    status: 'Active'
+    autoDeleteOnIdle: 'P10675199DT2H48M5.4775807S'
+    enablePartitioning: false
+    enableExpress: false
+  }
+}
 
