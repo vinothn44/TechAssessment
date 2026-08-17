@@ -1,11 +1,26 @@
 # TechAssessment
+
 Azure Integration Devloper Tech Assessment
 
-Design a simple integration to process student Records
+**Design a simple integration to process student Records**
+
+**Naming conventions:**
+
+**Logic app name** : lap-uop-eas-sis
+**Service bus namespace** : sbns-uop-admissionsystem
+
+**Abbreviation:**
+
+lap - logicapp
+uop - University of portsmouth
+eas - <sourcesystem> - External Admission system
+sis - <destinationsystem> - Student Information system
+sbns - service bus namespace
+  
 
 **Logic App Design**
 
-**Receive the Logic app using HTTP request**
+**Receive requests in Logic App using an HTTP trigger**
 
   <img width="1003" height="429" alt="image" src="https://github.com/user-attachments/assets/121c4862-ad8b-49ae-9181-9ecbbffbecba" />
 
